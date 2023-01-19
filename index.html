@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>❔</text></svg>"
+    />
+    <title>Adivinhe o Número!</title>
+  </head>
+  <body>
+    <header>
+      <h1>Adivinhe o Número!</h1>
+      <p class="entre">(Entre 1 e 20)</p>
+      <button class="btn denovo">De novo!</button>
+      <div class="numero">?</div>
+    </header>
+    <main>
+      <section class="esquerda">
+        <input type="number" class="palpite" />
+        <button class="btn checar">Checar!</button>
+      </section>
+      <section class="direita">
+        <p class="mensagem">Dê o seu palpite. 🤭</p>
+        <p class="label-pts">💯 Pontos: <span class="pontos">20</span></p>
+        <p class="label-record">🥇 Record: <span class="record">0</span></p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
